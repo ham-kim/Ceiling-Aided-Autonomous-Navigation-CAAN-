@@ -30,7 +30,7 @@ Instead of relying only on LiDAR or ground-level features, the system detects ce
 ## ⚙️ Features
 
 - Ceiling marker-based global position correction
-- Integration with ROS2 Nav2 stack
+- Integration with ROS2
 - Improved robustness in feature-poor environments
 - Modular architecture for easy integration
 
@@ -48,5 +48,6 @@ Instead of relying only on LiDAR or ground-level features, the system detects ce
 - Competition robotics
 
 - SLAM enhancement systems
+
 
 
