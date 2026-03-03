@@ -22,7 +22,6 @@ Instead of relying only on LiDAR or ground-level features, the system detects ce
 - **Robot Platform**: Mobile robot (TurtleBot / Custom platform)
 - **Framework**: ROS2
 - **Localization**: Ceiling marker detection + pose estimation
-- **Navigation**: Nav2 stack
 - **Vision Processing**: Marker detection & coordinate transformation
 
 ---
@@ -48,6 +47,7 @@ Instead of relying only on LiDAR or ground-level features, the system detects ce
 - Competition robotics
 
 - SLAM enhancement systems
+
 
 
 
