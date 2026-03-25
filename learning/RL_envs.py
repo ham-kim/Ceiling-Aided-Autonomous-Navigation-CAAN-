@@ -190,21 +190,6 @@ class MobileRobotEnv(gym.Env):
         time_penalty = -0.01  # 예: 매 스텝마다 -0.01 보상(패널티) 추가
         return dist + static_penalty + dynamic_penalty + time_penalty, dist, static_penalty, dynamic_penalty
     
-        # #로봇 행동이 종료 후 로봇 위치를 기준으로 계산함. 충돌이 고려되지 않음.
-        # if self.obstacles[self.robot_pos[1], self.robot_pos[0]] == 1:
-        #     static_penalty = -10
-            
-            
-        # for dyn_obs in self.dynamic_obstacles:
-        #     if np.array_equal(self.robot_pos, dyn_obs):
-        #         dynamic_penalty = -50
-
-        # if np.array_equal(self.robot_pos, self.goal_pos):
-        #     return 200, 0, static_penalty, dynamic_penalty
-
-        # dist = np.linalg.norm(self.robot_pos - self.goal_pos)
-        # time_penalty = -0.01  # 예: 매 스텝마다 -0.01 보상(패널티) 추가
-        # return -dist + static_penalty + dynamic_penalty + time_penalty, -dist, static_penalty, dynamic_penalty
 
 
 
