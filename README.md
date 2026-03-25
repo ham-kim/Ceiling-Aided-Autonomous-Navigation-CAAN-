@@ -22,7 +22,7 @@ Instead of relying only on LiDAR or ground-level features, the system detects ce
 - **Robot Platform**: Mobile robot (TurtleBot / Custom platform)
 - **Framework**: ROS2
 - **Localization**: Ceiling marker detection + pose estimation
-- **Vision Processing**: Marker detection & coordinate transformation
+- **Vision Processing**: yolo detection & coordinate transformation
 
 ---
 
